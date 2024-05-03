@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body class="bg-black text-white">
-    <header class="px-12">
+    <header class="flex px-12 items-center justify-between">
       <a href="#">
         <img class="w-32" src="./images/logo.png" alt="the shoe company logo" />
         <p class="text-sm -mt-8">The shoe company</p>
       </a>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#how-it-works">How it works?</a>
-        <a href="#about">About</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contacts</a>
+      <nav class="hidden md:block space-x-6 lg:space-x-10 lg:text-2xl">
+        <a class="font-bold" href="#">Home</a>
+        <a class="font-bold" href="#how-it-works">How it works?</a>
+        <a class="font-bold" href="#about">About</a>
+        <a class="font-bold" href="#testimonials">Testimonials</a>
+        <a class="font-bold" href="#contact">Contacts</a>
       </nav>
+      <button class="text-5xl md:hidden">☰</button>
     </header>
     <section id="hero"></section>
   </body>
