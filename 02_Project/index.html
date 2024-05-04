@@ -8,7 +8,7 @@
   </head>
   <body class="bg-black text-white">
     <header
-      class="flex px-12 items-center justify-between fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]"
+      class="flex px-6 md:px-12 items-center justify-between fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]"
     >
       <a href="#">
         <img
@@ -28,7 +28,7 @@
       <button class="text-5xl md:hidden">☰</button>
     </header>
     <section
-      class="bg-[url('./images/hero-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 max-w-[1440px] mx-auto"
+      class="bg-[url('./images/hero-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 px-6 md:px-12 max-w-[1440px] mx-auto"
       id="hero"
     >
       <div
@@ -43,10 +43,38 @@
         </h1>
         <div>
           <img
-            class="w-[600px]"
+            class="w-full max-w-xl"
             src="./images/hero-image.png"
             alt="white shoe image"
           />
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works" class="section-container pt-12">
+      <h2 class="text-center text-3xl font-bold max-w-md mx-auto">
+        Have they finally made the perfect workout shoe?
+      </h2>
+      <div class="relative max-w-2xl mx-auto mt-12">
+        <img
+          class="w-full max-w-2xl"
+          src="./images/how-it-works.png"
+          alt="shoe how-it-works"
+        />
+        <div class="absolute max-w-xs top-0 -translate-x-full">
+          <h3 class="text-2xl font-bold">THE HEEl</h3>
+          <p class="text-lg">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
+          <img class="ml-auto" src="./images/arrow-1.png" alt="arrow-1" />
+        </div>
+        <div class="absolute max-w-xs bottom-0 -translate-x-full">
+          <h3 class="text-2xl font-bold">THE HEEl</h3>
+          <p class="text-lg">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
+          <img class="ml-auto" src="./images/arrow-2.png" alt="arrow-2" />
         </div>
       </div>
     </section>
