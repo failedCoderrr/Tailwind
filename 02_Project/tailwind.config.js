@@ -9,6 +9,9 @@ module.exports = {
         pankaj: "1200px",
         // => @media (min-width: 1024px) { ... }
       },
+      backgroundImage: {
+        'testimonialBG': "url('./images/testimonial-bg.png')",
+      }
     },
   },
   plugins: [],
